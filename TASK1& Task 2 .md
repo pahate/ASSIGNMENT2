@@ -7,15 +7,7 @@ Problem Statement:  Write a Python program that:
 3. 	Displays the result accordingly.
 4. 	take 7 as odd no and 12 as even no 
    
-# python code
-def check_even_odd(number):
-    if number % 2 == 0:
-        print(f"{number} is Even.")
-    else:
-        print(f"{number} is Odd.")
 
-check_even_odd(7)
-check_even_odd(12)
 
 # Task 2
 # input 
@@ -27,14 +19,5 @@ Problem Statement: Write a Python program that:
 3.   Displays the final sum.
 
 
-   # python code 
-total_sum = 0
-
-
-for number in range(1, 51):
-    total_sum += number
-
-
-print("The sum of integers from 1 to 50 is:", total_sum)
    
 
